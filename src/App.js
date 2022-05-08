@@ -5,6 +5,8 @@ import Nav from "./components/Nav/Nav"
 
 import HomePage from "./pages/HomePage";
 import ProjectPage from "./pages/ProjectPage";
+import LoginPage from "./pages/LoginPage";
+import CreateAccountPage from "./pages/CreateAccountPage";
 
 import "./App.css";
 
@@ -15,7 +17,9 @@ function App() {
         <Nav />
           <Routes>
             <Route path="/project/:id" element={<ProjectPage />} />
+            <Route path="/login" element={<LoginPage />} />
             <Route path="/" element={<HomePage />} />
+            <Route path="/createaccount" element={<CreateAccountPage />} />
           </Routes>
       </div>
     </Router>
