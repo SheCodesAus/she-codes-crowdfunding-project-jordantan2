@@ -23,7 +23,7 @@ function ProjectPage() {
             <h3>{projectData.description}</h3>
             <h3>Created at: {projectData.created_at}</h3>
             {/* <h3>{`Status: ${projectData.is_open}`}</h3> */}
-            <h3>Pledges:</h3>
+            <h3>Pledges: none</h3>
             {/* <ul>
                 {projectData.pledges.map((pledgeData, key) => {
                     return (
